@@ -5,7 +5,9 @@ import Button from "react-bootstrap/Button";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
+import { type } from "@testing-library/user-event/dist/type";
 
+export const CreateTypeProduct = () => {};
 export const EditTypeProduct = () => {
   const [typeProducts, setTypeProducts] = useState({});
 
